@@ -1,0 +1,71 @@
+
+div#wrap_box {
+	margin: 100px auto;
+	width: 980px;
+	height: 560px;
+	border: 1px solid #00f6ff;
+	background-color: #282c34;
+	position: relative;
+}
+
+div#circle {
+	box-shadow: 0px 0px 15px #00f6ff;
+	width: 370px;
+	height: 110px;
+	border-radius: 159px / 70px;
+	border: 15px solid #00f6ff;
+	position: absolute;
+	margin: 200px 300px;
+	transition: all 0.9s;
+}
+
+
+span.shadow {
+	box-shadow: 0px 0px 5px white;
+}
+
+.a{
+	transform:rotate(60deg);
+}
+.b{
+	transform:rotate(120deg);
+}
+.c{
+	transform:rotate(180deg);
+}
+
+
+.aa{
+	transform:rotate(240deg);
+}
+.bb{
+	transform:rotate(-60deg);
+}
+.cc{
+	transform:rotate(360deg);
+}
+
+div#CircleInner {
+	    margin-left: 470;
+	    margin-top: 237;
+	    border-radius: 50px;
+	    background-color: #00f6ff;
+	    width: 60px;
+	    height: 60px;
+	    box-shadow: 0px 0px 28px #00f6ff;
+}
+
+div#React {
+	font-size: 80px;
+	font-family: sans-serif;
+	color:white;
+	/*border:1px solid white;*/
+	width:200px;
+	height:100px;
+	font-weight: bold;
+	position: absolute;
+	bottom:0px;
+	display:none;
+	
+}
+
